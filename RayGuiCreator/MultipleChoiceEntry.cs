@@ -59,7 +59,7 @@ namespace RayGuiCreator
 			return choices[index];
 		}
 
-		public string ToString()
+		override public string ToString()
 		{
 			return choices[selectedIndex];
 		}
