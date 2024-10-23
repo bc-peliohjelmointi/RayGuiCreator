@@ -35,7 +35,7 @@ namespace RayGuiCreator
 			this.rowHeight = rowHeight;
 			betweenRows = betweenItems;
 			menuWidth = width;
-			textSize = rowHeight - textHeightAdjust;
+			textSize = rowHeight + textHeightAdjust;
 			RayGui.GuiSetStyle((int)GuiControl.DEFAULT, (int)GuiDefaultProperty.TEXT_SIZE, textSize);
 			font = RayGui.GuiGetFont();
 			dropDowns = new Stack<MultipleChoiceEntry>();
